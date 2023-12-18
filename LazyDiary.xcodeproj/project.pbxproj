@@ -55,10 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				08BD17942B30472500855F21 /* Images */,
+				08BD17902B3046F200855F21 /* Supporting */,
 				08BD17932B30470D00855F21 /* Models */,
 				08BD17922B30470800855F21 /* Views */,
 				08BD17912B30470000855F21 /* Controllers */,
-				08BD17902B3046F200855F21 /* Supporting */,
 				08BD178A2B30422F00855F21 /* Info.plist */,
 			);
 			path = LazyDiary;
