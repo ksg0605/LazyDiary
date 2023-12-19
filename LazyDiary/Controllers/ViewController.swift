@@ -89,6 +89,7 @@ class ViewController: UIViewController {
             }
         }
         
+        // 취소버튼오류해결
         let cancel = UIAlertAction(title: "취소", style: .default) { [weak self] _ in
 //                async { await self?.reloadData() }
         }
@@ -123,7 +124,7 @@ extension ViewController: CLLocationManagerDelegate {
     
     // 사용자의 위치를 효과적으로 가져왔을 때
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        
+        // 여기에서 줌인 후 본인 위치 표시
         if let coordinate = locations.last?.coordinate {
             // 사용자 위치 정보 사용
         }
