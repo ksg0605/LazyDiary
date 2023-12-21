@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0811C9D62B34843E00D32B0C /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0811C9D52B34843E00D32B0C /* DiaryViewController.swift */; };
 		08BD177D2B30422D00855F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BD177C2B30422D00855F21 /* AppDelegate.swift */; };
 		08BD177F2B30422D00855F21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BD177E2B30422D00855F21 /* SceneDelegate.swift */; };
 		08BD17812B30422D00855F21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BD17802B30422D00855F21 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0811C9D52B34843E00D32B0C /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		08BD17792B30422D00855F21 /* LazyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BD177C2B30422D00855F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08BD177E2B30422D00855F21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				08BD17802B30422D00855F21 /* ViewController.swift */,
+				0811C9D52B34843E00D32B0C /* DiaryViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0811C9D62B34843E00D32B0C /* DiaryViewController.swift in Sources */,
 				08BD17812B30422D00855F21 /* ViewController.swift in Sources */,
 				08BD177D2B30422D00855F21 /* AppDelegate.swift in Sources */,
 				08BD177F2B30422D00855F21 /* SceneDelegate.swift in Sources */,
