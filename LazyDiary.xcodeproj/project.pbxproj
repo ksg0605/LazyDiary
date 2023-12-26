@@ -13,6 +13,8 @@
 		08BD17812B30422D00855F21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BD17802B30422D00855F21 /* ViewController.swift */; };
 		08BD17862B30422F00855F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08BD17852B30422F00855F21 /* Assets.xcassets */; };
 		08BD17962B30473700855F21 /* icon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 08BD17952B30473700855F21 /* icon-1.png */; };
+		08EACD642B3B008D00B74F3F /* NaverMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EACD632B3B008D00B74F3F /* NaverMap.swift */; };
+		08EACD662B3B00AD00B74F3F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EACD652B3B00AD00B74F3F /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		08BD17852B30422F00855F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08BD178A2B30422F00855F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08BD17952B30473700855F21 /* icon-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-1.png"; path = "../../../../Downloads/icon-1.png"; sourceTree = "<group>"; };
+		08EACD632B3B008D00B74F3F /* NaverMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverMap.swift; sourceTree = "<group>"; };
+		08EACD652B3B00AD00B74F3F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		08BD17922B30470800855F21 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				08EACD652B3B00AD00B74F3F /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 		08BD17932B30470D00855F21 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				08EACD632B3B008D00B74F3F /* NaverMap.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,6 +184,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0811C9D62B34843E00D32B0C /* DiaryViewController.swift in Sources */,
+				08EACD662B3B00AD00B74F3F /* DetailView.swift in Sources */,
+				08EACD642B3B008D00B74F3F /* NaverMap.swift in Sources */,
 				08BD17812B30422D00855F21 /* ViewController.swift in Sources */,
 				08BD177D2B30422D00855F21 /* AppDelegate.swift in Sources */,
 				08BD177F2B30422D00855F21 /* SceneDelegate.swift in Sources */,
